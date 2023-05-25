@@ -1,6 +1,6 @@
 # Проект YaMDb собирает отзывы пользователей на произведения.
 
-![Github actions](https://github.com/leenominai/yamdb_final/actions/workflows/yamdb_workflow/badge.svg)
+![Github actions](https://github.com/leenominai/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание:
 Проект YaMDb собирает отзывы пользователей на произведения. Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.

@@ -133,7 +133,23 @@ http://localhost/admin/
 ```
 docker-compose exec web python manage.py dumpdata > fixtures.json
 ```
-
+Добавляем в GitHub Secrets следующие параметры:
+```
+DB_ENGINE= # указать, что проект работает с postgresql
+DB_NAME= # имя базы данных
+POSTGRES_USER= # логин для подключения к базе данных
+POSTGRES_PASSWORD= # пароль для подключения к БД
+DB_HOST= # название сервиса БД (контейнера) 
+DB_PORT= # порт для подключения к БД
+DOCKER_PASSWORD= # Пароль от аккаунта на DockerHub
+DOCKER_USERNAME= # Username в аккаунте на DockerHub
+HOST= # IP удалённого сервера
+USER= # Логин на удалённом сервере
+SSH_KEY= # SSH-key компьютера, с которого будет происходить подключение к удалённому серверу
+PASSPHRASE= # Если для ssh используется фраза-пароль
+TELEGRAM_TO= #ID пользователя в Telegram
+TELEGRAM_TOKEN= #ID бота в Telegram
+```
 ## Документация:
 Доступна по адресу /redoc/
 
